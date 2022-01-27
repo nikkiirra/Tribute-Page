@@ -1,0 +1,72 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+#main {
+    position: relative;
+    background: #565151; 
+    width: 1440px;
+}
+
+#wallpaper {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    left: 0px;
+    top: 0px; 
+    background-image: url("images/ShairaLunaMain\ copy.jpg");
+    background-position: center; 
+ 
+
+}
+
+#title {
+    position: absolute;
+    width: 674px;
+    height: 123px;
+    left: 412px;
+    top: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 120px;
+    line-height: 119px;
+    color: #FFFFFF;
+}
+
+#introduction {
+    position: absolute;
+    width: 1028px;
+    height: 61px;
+    left: 235px;
+    top: 300px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 60px;
+
+    color: #FFFFFF;
+
+}
+
+#img-div {
+    
+}
+
+#image {
+    
+}
+#img-caption {
+
+}
+
+#tribute-info {
+
+}
+
+#tribute-link {
+
+
+}
