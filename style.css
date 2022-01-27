@@ -35,7 +35,7 @@ body {
 }
 
 #introduction {
-    position: absolute;
+    position: relative;
     width: 1028px;
     height: 61px;
     left: 235px;
@@ -176,7 +176,7 @@ body {
 
 #why-shaira-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 #text-why-shaira {
