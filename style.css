@@ -67,8 +67,7 @@ body {
 
     box-shadow: 9px 10px 43px 0px rgba(0,0,0,0.57);
     -webkit-box-shadow: 9px 10px 43px 0px rgba(0,0,0,0.57);
-    -moz-box-shadow: 9px 10px 43px 0px rgba(0,0,0,0.57);
-        
+    -moz-box-shadow: 9px 10px 43px 0px rgba(0,0,0,0.57);     
     
 }
 
@@ -199,15 +198,12 @@ body {
     text-align: justify;
     text-shadow: 3px -1px 4px rgba(0,0,0,0.25);
 
-
- 
-   
-
     color: #FFFFFF;
-
-
 }
 
+#fourth-page-container {
+  
+}
 
 #tribute-link {
 
