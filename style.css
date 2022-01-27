@@ -2,23 +2,23 @@ body {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    background: #565151; 
 }
 #main {
+    display: flex;
+    flex-direction: column;
     position: relative;
     background: #565151; 
     width: 1440px;
 }
 
 #wallpaper {
-    position: absolute;
     width: 100%;
     height: 100vh;
     left: 0px;
     top: 0px; 
     background-image: url("images/ShairaLunaMain\ copy.jpg");
-    background-position: center; 
- 
-
+    background-position: center;  
 }
 
 #title {
@@ -26,7 +26,7 @@ body {
     width: 674px;
     height: 123px;
     left: 412px;
-    top: 150px;
+    top: 200px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-size: 120px;
@@ -39,7 +39,7 @@ body {
     width: 1028px;
     height: 61px;
     left: 235px;
-    top: 300px;
+    top: 350px;
 
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
@@ -52,18 +52,72 @@ body {
 }
 
 #img-div {
+    display: flex;
+    flex-direction: row;
+    
     
 }
 
 #image {
+    position: relative;
+    width: 250px;
+    height: 650px;
+    left: 170px;
+    top: 65px;
+        
     
 }
-#img-caption {
 
+.title-position {
+    display: flex;
+    flex-direction: column;
 }
 
-#tribute-info {
+#who-is-shaira {
+    left: 390px;
+    top: 150px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 57px;
+    color: #FFFFFF;
+}
 
+#img-caption {
+    position: relative;
+    width: 352px;
+    height: 25px;
+    left: -130px;
+    top: 555px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    
+    color: #FFFFFF;
+
+}
+#tribute-info {
+    position: relative;
+    width: 900px;
+    height: 150px;
+    left: 356px;
+    top: 198px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+        
 }
 
 #tribute-link {
